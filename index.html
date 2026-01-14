@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Digital Pet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="pet-card">
+    <h1 id="petName"></h1>
+    <p id="mood"></p>
+
+    <div class="stats">
+      <p>Hunger: <span id="hunger"></span></p>
+      <p>Happiness: <span id="happiness"></span></p>
+    </div>
+
+    <div class="actions">
+      <button onclick="feedPet()">🍖 Feed</button>
+      <button onclick="playPet()">🎾 Play</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
